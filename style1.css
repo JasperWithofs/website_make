@@ -1,0 +1,70 @@
+body {background-color: lightslategrey;}
+
+ul.introlist{
+    text-align: center;
+    background-color: lightslategray;}
+
+
+.onderdelen {
+     text-align: center;  
+    margin-left: ;
+    margin-right: auto;
+    color: white;
+    font-size: 22px;
+    font-family: fantasy;
+    margin-top: 5px;
+    
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+    text-align: center;
+}
+
+.nav li  {
+  float: center;
+  border-right:5px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+font-family: fantasy;
+
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+
+ @media screen and (min-width: 600px) {
+
+  .nav li {
+      width: 120px;
+      border-bottom: none;
+      height: 80px;
+      line-height: 50px;
+      font-size: 1.4em;
+      display: inline-block;
+    }
+   
+     
+
+  
