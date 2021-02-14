@@ -1,5 +1,18 @@
 body {background-color: lightslategrey;}
 
+#intro{
+    color: red;
+}
+
+#pseudo-element::first-line{
+    color: pink;
+}
+
+#pseudo-element[target=_blank] {
+  background-color: yellow;
+}
+
+
 ul.introlist{
     text-align: center;
     background-color: lightslategray;}
